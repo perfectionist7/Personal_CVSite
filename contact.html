@@ -3,29 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Details</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h3> Here are my contact details </h3>
+    <h1> <div class ="number1" >Here are my contact details </div></h1>
     <ul>
-        <li> Github - perfectionist7 </li>
-        <li> Email ID - akhandelwal20 03@gmail.com </li>
-        <li> Instagram</li>
+        <li> Github - perfectionist7 </li> <br>
+        <li> Email ID - akhandelwal2003@gmail.com </li> <br>
+        <li> Instagram - imperfectionist7</li> <br>
     </ul>
-    <hr>    
+    <hr>
+    
     <form action="mailto:akhandelwal2003@gmail.com" method="post" enctype="text/plain">
-        <label>
+    <table>
+        <tr> <td>  <h3> Fill this form to contact me </h3> </td></tr>
+        <tr><td><label>
             Enter your name: 
-        </label>
-        <input type="text" name="Your Name " id=""> <br>
+        </label> </td>
+        <td>
+        <input type="text" name="Your Name " id=""> <br> 
+        </td>
+        </tr>
         <label>
-            Enter your Email Id:
+        <tr>
+           <td> Enter your Email Id: </td>
         </label>
-        <input type="email" name="Your Email Address " id=""> <br>
-        <labeL>
-            Enter your message:
+        <td> <input type="email" name="Your Email Address " id=""> <br> </td><br> </tr>
+        <labeL> <tr>
+        <td>  Enter your message: <br> </td>
         </labeL> <br>
-        <textarea name="Your message " id="" cols="20" rows="10"></textarea> <br>
-        <input type="submit" value="submit">
+        <td> <textarea name="Your message " id="" cols="20" rows="10"></textarea> <br> </td>
+        <br> </tr>
+        <tr> <td> <input type="submit" value="submit"> </td> </tr>
+    </table>
     </form>
 </body>
 </html>
